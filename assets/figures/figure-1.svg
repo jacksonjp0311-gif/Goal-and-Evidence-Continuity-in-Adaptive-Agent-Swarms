@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="860" viewBox="0 0 1500 860">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+    <polygon points="0 0, 10 4, 0 8" fill="#1c1c1c"/>
+  </marker>
+</defs>
+<text x="40" y="48" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#12324d">State transaction</text>
+<rect x="40" y="80" width="350" height="180" rx="12" fill="#f4f7fb" stroke="#1c1c1c" stroke-width="2"/>
+<text x="56" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#12324d">Agents</text>
+<text x="56" y="142" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Replaceable executors.</text>
+<text x="56" y="168" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Propose work.</text>
+<text x="56" y="194" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Submit observations.</text>
+<text x="56" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Do not commit success.</text>
+<rect x="560" y="70" width="420" height="210" rx="12" fill="#e7eef6" stroke="#1c1c1c" stroke-width="2"/>
+<text x="576" y="102" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#12324d">Acceptance kernel</text>
+<text x="576" y="132" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Authorizes transitions.</text>
+<text x="576" y="158" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Checks revision, epoch,</text>
+<text x="576" y="184" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">contract, and snapshot.</text>
+<text x="576" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Accepts or rejects claims.</text>
+<rect x="1100" y="70" width="360" height="210" rx="12" fill="#f7f7f4" stroke="#1c1c1c" stroke-width="2"/>
+<text x="1116" y="102" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#12324d">Durable mission state</text>
+<text x="1116" y="132" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Contract and graph.</text>
+<text x="1116" y="158" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Snapshot and evidence.</text>
+<text x="1116" y="184" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Ownership epochs.</text>
+<text x="1116" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Effect and resource ledgers.</text>
+<line x1="390" y1="140" x2="555" y2="140" stroke="#1c1c1c" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="410" y="128" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#333333">proposals</text>
+<line x1="555" y1="190" x2="390" y2="190" stroke="#1c1c1c" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="410" y="208" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#333333">decisions</text>
+<line x1="980" y1="160" x2="1095" y2="160" stroke="#1c1c1c" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="990" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#333333">commit</text>
+<rect x="40" y="330" width="1420" height="490" rx="14" fill="#ffffff" stroke="#8a6a32" stroke-width="2"/>
+<text x="60" y="372" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#6b5018">Outside the state transaction</text>
+<rect x="60" y="410" width="410" height="190" rx="12" fill="#fbf6ea" stroke="#1c1c1c" stroke-width="2"/>
+<text x="76" y="442" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#12324d">Scheduler</text>
+<text x="76" y="472" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Ready work and reservations.</text>
+<text x="76" y="498" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Separate resource classes.</text>
+<text x="76" y="524" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Admission is not acceptance.</text>
+<rect x="540" y="410" width="440" height="190" rx="12" fill="#fbf6ea" stroke="#1c1c1c" stroke-width="2"/>
+<text x="556" y="442" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#12324d">Model execution</text>
+<text x="556" y="472" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Local or cloud providers.</text>
+<text x="556" y="498" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Immutable attempt settings.</text>
+<text x="556" y="524" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Returns usage and output.</text>
+<rect x="1050" y="410" width="390" height="190" rx="12" fill="#fbf6ea" stroke="#1c1c1c" stroke-width="2"/>
+<text x="1066" y="442" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#12324d">Tool execution</text>
+<text x="1066" y="472" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Authorized capabilities.</text>
+<text x="1066" y="498" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">May have external effects.</text>
+<text x="1066" y="524" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Returns a receipt or unknown.</text>
+<line x1="770" y1="280" x2="770" y2="405" stroke="#1c1c1c" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="784" y="350" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#333333">admit work</text>
+<line x1="470" y1="500" x2="535" y2="500" stroke="#1c1c1c" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="476" y="488" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#333333">reserve</text>
+<line x1="980" y1="520" x2="1045" y2="520" stroke="#1c1c1c" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="986" y="508" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#333333">call</text>
+<text x="60" y="680" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Receipts return to the kernel for reconciliation.</text>
+<text x="60" y="710" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">They do not rewrite accepted state by themselves.</text>
+</svg>

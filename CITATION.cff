@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this technical report as below."
+type: report
+title: "Goal and Evidence Continuity in Adaptive Agent Swarms: Runtime contracts and an evaluation protocol for Pegasus"
+version: "1.1"
+date-released: 2026-11-08
+url: "https://github.com/jacksonjp0311-gif/pegasus-swarm-continuity"
+authors:
+  - given-names: James Paul
+    family-names: Jackson

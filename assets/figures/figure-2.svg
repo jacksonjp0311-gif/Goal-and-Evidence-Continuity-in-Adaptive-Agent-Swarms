@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+    <polygon points="0 0, 10 4, 0 8" fill="#1c1c1c"/>
+  </marker>
+</defs>
+<rect x="40" y="24" width="420" height="206" rx="12" fill="#eef6ee" stroke="#1c1c1c" stroke-width="2"/>
+<text x="56" y="56" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#12324d">Snapshot A</text>
+<text x="56" y="86" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Selected deliverable A.</text>
+<text x="56" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Test result T-A recorded.</text>
+<text x="56" y="138" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Subjects match A.</text>
+<text x="56" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Current discharge: applicable.</text>
+<rect x="540" y="24" width="420" height="206" rx="12" fill="#f7f7f4" stroke="#1c1c1c" stroke-width="2"/>
+<text x="556" y="56" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#12324d">Selection changes</text>
+<text x="556" y="86" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Kernel selects snapshot B.</text>
+<text x="556" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">T-A remains in history.</text>
+<text x="556" y="138" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">It is not deleted.</text>
+<text x="556" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">It no longer supports B.</text>
+<rect x="1040" y="24" width="420" height="206" rx="12" fill="#f8eeee" stroke="#1c1c1c" stroke-width="2"/>
+<text x="1056" y="56" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#12324d">Snapshot B</text>
+<text x="1056" y="86" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Selected deliverable B.</text>
+<text x="1056" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Affected discharge invalidated.</text>
+<text x="1056" y="138" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">B needs applicable evidence.</text>
+<text x="1056" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Success is not inherited.</text>
+<line x1="460" y1="120" x2="535" y2="120" stroke="#1c1c1c" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="468" y="100" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#333333">select B</text>
+<line x1="960" y1="120" x2="1035" y2="120" stroke="#1c1c1c" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="268" width="1420" height="312" rx="14" fill="#f7f7fb" stroke="#1c1c1c" stroke-width="2"/>
+<text x="64" y="312" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#12324d">Unrelated evidence</text>
+<text x="64" y="360" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Evidence whose declared dependencies are unchanged can remain applicable.</text>
+<text x="64" y="396" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">A content hash identifies an artifact. It does not establish that a claim is still true.</text>
+<text x="64" y="432" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">Policy changes, expired external observations, and changed dependencies</text>
+<text x="64" y="468" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400" fill="#1c1c1c">invalidate affected current discharges in the same way as selecting B.</text>
+</svg>
