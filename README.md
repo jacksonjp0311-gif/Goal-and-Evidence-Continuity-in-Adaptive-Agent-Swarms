@@ -11,8 +11,8 @@ This repository publishes the technical report. It specifies a runtime contract 
 
 | Format | Link |
 | --- | --- |
-| PDF, view in the browser | [paper/whitepaper.pdf](https://github.com/jacksonjp0311-gif/pegasus-swarm-continuity/blob/main/paper/whitepaper.pdf) |
-| PDF, download | [paper/whitepaper.pdf](https://github.com/jacksonjp0311-gif/pegasus-swarm-continuity/raw/refs/heads/main/paper/whitepaper.pdf) |
+| PDF, view in the browser | [paper/whitepaper.pdf](https://github.com/jacksonjp0311-gif/Goal-and-Evidence-Continuity-in-Adaptive-Agent-Swarms/blob/main/paper/whitepaper.pdf) |
+| PDF, download | [paper/whitepaper.pdf](https://github.com/jacksonjp0311-gif/Goal-and-Evidence-Continuity-in-Adaptive-Agent-Swarms/raw/refs/heads/main/paper/whitepaper.pdf) |
 | Full Markdown | [paper/whitepaper.md](paper/whitepaper.md) |
 | Page gallery | [docs/pages/index.md](docs/pages/index.md) |
 | Word source | [source/whitepaper.docx](source/whitepaper.docx) |
@@ -74,7 +74,7 @@ The architecture, the two conditional propositions, and the evaluation protocol 
 
 ## Citation
 
-Jackson, James Paul. 2026. *Goal and Evidence Continuity in Adaptive Agent Swarms: Runtime contracts and an evaluation protocol for Pegasus.* Version 1.1, 8 November 2026. https://github.com/jacksonjp0311-gif/pegasus-swarm-continuity
+Jackson, James Paul. 2026. *Goal and Evidence Continuity in Adaptive Agent Swarms: Runtime contracts and an evaluation protocol for Pegasus.* Version 1.1, 8 November 2026. https://github.com/jacksonjp0311-gif/Goal-and-Evidence-Continuity-in-Adaptive-Agent-Swarms
 
 ## Rebuild
 
